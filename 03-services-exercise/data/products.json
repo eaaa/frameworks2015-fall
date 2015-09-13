@@ -1,0 +1,38 @@
+[
+	{
+		"id": "old-rasputin",
+		"name": "Old Rasputin",
+		"price": 40,
+		"category": "Russian Imperial Stout",
+		"image": "old_rasputin.jpg",
+		"brewery": "North Coast Brewing",
+		"alcohol": 9
+	},
+	{
+		"id": "old-stock",
+		"name": "Old Stock",
+		"price": 35,
+		"category": "Old Ale",
+		"image": "old_stock.jpg",
+		"brewery": "North Coast Brewing",
+		"alcohol": 11.9
+	},
+	{
+		"id": "henry-jagger",
+		"name": "Henry Jagger",
+		"price": 35,
+		"category": "Low alcohol American Pale Ale",
+		"image": "henry_jagger.jpg",
+		"brewery": "Mikkeller",
+		"alcohol": 2.2
+	},
+	{
+		"id": "beer-geek-breakfast",
+		"name": "Beer Geek Breakfast",
+		"price": 45,
+		"category": "Oatmeal stout with coffee",
+		"image": "beer_geek_breakfast.jpg",
+		"brewery": "Mikkeller",
+		"alcohol": 7.5
+	}
+]
