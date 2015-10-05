@@ -1,0 +1,19 @@
+@import '_reset.scss';
+
+/* style.css */
+
+$base-color: #ff1492;
+
+html {
+    font-size: (10/16) * 1em;
+}
+
+body {
+    background-color: $base-color;
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 1em;
+    font-weight: bold;
+}
