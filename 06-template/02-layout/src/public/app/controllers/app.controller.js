@@ -7,9 +7,9 @@
     
     function controller($scope, service){
         $scope.message = "hello world from angular";
-        $scope.data = service.getData()
-          .then(function(data){
-            $scope.data = data;
-        });
+      $scope.data = service.getData()
+        .then(function(data){
+          $scope.data = data;
+      });
     }
 })();

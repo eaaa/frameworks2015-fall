@@ -1,0 +1,52 @@
+@import '_reset.scss';
+
+/* style.css */
+
+$base-color: #dcddf0;
+
+html {
+    font-size: (10/16) * 1em;
+}
+
+body {
+    background-color: $base-color;
+    color: #fff;
+    font-size: 2em;
+}
+
+.row {
+  display: flex;
+}
+
+header {
+  height: 10vh;
+  background-color: aqua;
+}
+
+aside {
+  height: 80vh;
+  flex: 1;
+  background-color: blueviolet;
+}
+
+section{
+  flex: 4;
+  display: flex;
+  height: 80vh;
+  background-color: coral;
+}
+
+footer {
+  height: 10vh;
+  background-color: blue;
+}
+
+article {
+  box-sizing: border-box;
+  border: 1px yellow solid;
+  background-color: black;
+  height: 100%;
+  float: left;
+  opacity: 0.4;
+  flex: 1;
+}
