@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 Login to admin
+  p= messages.info
+  form(name="login", action="/login", method="post")
+      input(type="text", name="username" placeholder="Enter username")
+      input(type="password", name="password")
+      input(type="submit", value="login")
